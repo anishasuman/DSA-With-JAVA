@@ -1,8 +1,8 @@
 import java.util.*;
-public class FindMe {
+public class Find {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int n,i,c=0,item;
+        int n,i,item;
         System.out.println("Enter the element size: "); //n = 3
         n = sc.nextInt();
 
@@ -15,13 +15,18 @@ public class FindMe {
 
         System.out.println("Enter the element to be found : "); //20
         item = sc.nextInt();
+
+        int foundIndex = -1;
         for(i=0;i<n;i++){
-            c++;
-            break;
+            if(a[i] == item){
+                foundIndex = i;
+                break;
+            }
+            
 
         }
-        if(c>0){
-            System.out.println("Yes " + item + " element is found!"); //yes is output
+        if(foundIndex != -1){
+            System.out.println("Yes " + item + " element is found at index : "+ foundIndex + "!"); //yes is output 
         }else{
             System.out.println("Not found");
         }

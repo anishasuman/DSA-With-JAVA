@@ -1,0 +1,45 @@
+import java.util.*;
+
+public class Binary {
+    public static void main(String args[]){
+        int n, i, item, beg, end, mid;
+        int[] a;
+        boolean found = false;
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("How many elements do you want to enter: ");
+        n = sc.nextInt();
+        a = new int[n];
+
+        System.out.println("Enter elements in sorted order: ");
+        for(i = 0; i < n ; i++){
+            a[i] = sc.nextInt();
+        }
+
+        System.out.print("Enter item to find: ");
+        item = sc.nextInt();
+
+        beg = 0;
+        end = n - 1;
+
+        while(beg <= end){
+            mid = (beg + end) / 2;
+            if(item == a[mid]){
+                System.out.println("Item found at index " + mid);
+                found = true;
+                break;
+            }
+            else if(item > a[mid]){
+                beg = mid + 1;
+            }
+            else{
+                end = mid - 1;
+            }
+        }
+
+        if(!found){
+            System.out.println("Item not found");
+        }
+    }
+}

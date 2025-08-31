@@ -1,4 +1,4 @@
-public class floorNum {
+public class floorNumber {
     public static void main(String[] args){
         int[] arr = {2, 3, 5 , 9 , 14 , 16 , 18};
         int target = 15;
@@ -6,7 +6,7 @@ public class floorNum {
         System.out.println(ans);
     }
 
-    static int floorNum(int[] arr, int target){
+    static int floorNumber(int[] arr, int target){
         int start = 0;
         int end = arr.length - 1;
 

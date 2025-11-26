@@ -1,0 +1,12 @@
+https://www.canva.com/design/DAG5E2--mZY/Jw0T-xsRmrwAfRpP4ojpgA/edit?utm_content=DAG5E2--mZY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+
+Kubernetes is a horizontal 
+kublets only for monitoring 
+etcd=data storage(only stored desired data) like dic in python
+kube controller manager=manage cluster state
+
+
+
+homw aout
+education skills projet certificate contact 

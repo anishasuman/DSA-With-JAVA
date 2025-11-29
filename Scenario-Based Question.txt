@@ -1,0 +1,10 @@
+Scenario-Based Question
+Riya is working as a Cloud Intern in an IT company. Her team leader has assigned her a task to manage cloud storage properly.
+
+First, Riya needs to create a storage service and inside it, she must create a bucket.
+
+After creating the bucket, she has to upload a file into that bucket with some sample data.
+
+In the next step, Riya must enable versioning on the bucket so that multiple versions of the uploaded file can be maintained.
+
+Finally, she needs to configure lifecycle management rules to automatically move or delete files based on time or storage requirement.

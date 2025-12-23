@@ -1,0 +1,12 @@
+product 
+-laptop
+-
+order
+-some info
+notification
+-cominication b/w order product how  it works.
+all are microservice
+node --version --npm --version
+then install postman
+
+

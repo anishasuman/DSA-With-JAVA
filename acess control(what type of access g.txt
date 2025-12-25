@@ -1,0 +1,34 @@
+acess control(what type of access given to ur file) = 3 h 
+r,w and execute
+owner = wre
+group
+and others 
+OS => 
+segrrigration = arrange krna sequence
+1. coud service provider
+2 . data encry
+3. identify and access management 
+4.multi factore authentication
+5.vpc
+6.shared responsible (graph and tress) (eg . shared b/w two people)
+Microsoft 365 shared using instances(processes ) and it does not interact with each other 
+7.data loss prevention(using tools)
+8.compilance(following rules)
+ 
+9.security and event management
+10.threat detection 
+11.incident responce
+12.backup and recovery
+13.zero trust security
+14.api security
+15.penetration testing
+@vulnerabilities (weekeneses)
+Investicating
+
+
+
+
+
+
+
+
